@@ -1,16 +1,15 @@
 .greenBox{
     width: 100%;
-    background-color: lightgreen;
+    background-color: rgb(120, 204, 120);
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding: 20px
 }
 .whiteBox{
     padding-left: 20px;
     padding-bottom: 20px;
-    width: 70%;
+    width: 60%;
     background-color: white;
     border: 2px solid gray;
     border-radius: 20px;
@@ -28,14 +27,26 @@
     background-color: rgb(81, 173, 231);
     border: 2px solid gray;
     border-radius: 20px;
+    color: seashell;
 }
 .redButton{
     background-color: rgba(202, 20, 20, 0.76);
     border: 2px solid gray;
     border-radius: 20px;
+    color: seashell;
 }
 .greenButton{
-    background-color: lightgreen;
+    background-color: rgb(117, 202, 117);
     border: 2px solid gray;
     border-radius: 20px;
+    color: seashell;
+}
+.done{
+    background-color: rgba(128, 128, 128, 0.411);
+    text-decoration: line-through;
+    color: gray;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
 }
