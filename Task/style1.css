@@ -1,0 +1,44 @@
+.pageName{
+    color: rgb(100, 100, 100);
+    text-shadow: 2px 2px gray;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding: 0;
+}
+.nav{
+    color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 70px;
+    font-size: x-large;
+}
+.panner{
+    position: absolute;
+    width: 100%;
+    background-image: url(tree.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    font-size: 3rem;    
+    color: rgb(63, 63, 63);
+    text-shadow: 2px 2px gray;
+
+}
+button{
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border-radius: 8%;
+}
