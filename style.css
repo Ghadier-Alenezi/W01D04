@@ -1,0 +1,41 @@
+.greenBox{
+    width: 100%;
+    background-color: lightgreen;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.whiteBox{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.inputStyle{
+    display: block;
+}
+.addButton{
+    background-color: rgb(81, 173, 231);
+    color: seashell;
+    border-radius: 20px;
+
+}
+.blueButton{
+    background-color: rgb(81, 173, 231);
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.redButton{
+    background-color: rgba(202, 20, 20, 0.76);
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.greenButton{
+    background-color: lightgreen;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
